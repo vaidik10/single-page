@@ -1,0 +1,67 @@
+.main__card{
+    height: 600px;
+    
+   
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.main__container{
+
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 2rem;
+    width: calc(100% - 2rem);
+    row-gap: 2rem;
+    
+  }
+  .main__content{
+      background-color: black;
+  }
+  .main__content h1{
+      color: white;
+      margin-top: 100px;
+  }
+  .main__content p{
+      color: white;
+      margin: 10px;
+      margin-top: 10px;
+  }
+  .main__subtitle{
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-size: 20px;
+  }
+  .main__img{
+    height: 500px;
+    width: 500px;
+    
+    margin-top: 60px;
+
+    justify-self: center;
+  }
+  .main__img img{
+    width: 700px;
+    height: 500px;
+    
+    
+  }
+  .main__text{
+      margin-top: 30px;
+      color: white;
+  }
+  .button5 {
+    
+
+    font-family: Arial;
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    border: solid white 2px;
+    text-decoration: none;
+    background-color: transparent;
+    margin-left: 30px;
+    margin-top: 30px;
+  }

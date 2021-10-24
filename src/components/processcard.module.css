@@ -1,0 +1,33 @@
+.container{
+    background-color:black;
+    display: flex;
+    align-items:flex-start;
+    padding: 20px;
+    height: 300px;
+}
+.imgContainer{
+   
+}
+.imgstyle{
+}
+.btn{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid white;
+}
+.content{
+    padding: 10px;
+    max-width: 500px;
+
+}
+.content p{
+    color: white;
+}
+.content h2{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: white;
+}

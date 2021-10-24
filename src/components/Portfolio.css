@@ -1,0 +1,117 @@
+.heading{
+    
+    background-color: black;
+    background-size: 50% auto;
+    width: 50%;
+    color:rgb(117, 0, 0);
+    padding-left: 100px;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    height: 70px;
+    text-align: center;
+    font-size: 2.7rem;
+
+}
+.menu{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 20px;
+}
+.menu ul{
+    font-weight: bolder;
+    text-shadow: black;
+}
+.card{
+    height: 600px;
+    
+    background-color: rgb(202, 223, 226);
+   
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.inner__card{
+    height: 400px;
+    width: 500px;
+    margin: 40px;
+    margin-top: 60px;
+    margin-left: 200px;
+    background-color: rgb(180, 223, 224);
+    position: absolute;
+
+}
+.bd-grid{
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 2rem;
+    width: calc(100% - 2rem);
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+  }
+  .about__container{
+
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 2rem;
+    width: calc(100% - 2rem);
+    row-gap: 2rem;
+    
+  }
+  .about__subtitle{
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-size: 20px;
+  }
+  .about__img{
+    height: 400px;
+    width: 500px;
+    margin: 40px;
+    margin-top: 60px;
+    margin-left: 200px;
+    background-color: rgb(180, 223, 224);
+   
+    justify-self: center;
+  }
+  .about__img img{
+    width: 430px;
+    height: 350px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+  }
+  .about__text{
+      margin-top: 30px;
+  }
+  .button {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    border: solid #000000 2px;
+    text-decoration: none;
+    background-color: transparent;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .button2{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    border: solid #000000 2px;
+    text-decoration: none;
+    background-color: black;
+    margin-left: 30px;
+    
+  }

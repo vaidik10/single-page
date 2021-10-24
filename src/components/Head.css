@@ -1,0 +1,83 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  
+}
+
+.hero__title {
+  position: absolute;
+  bottom: 45%;
+  right: 40%;
+  color: white;
+  font-size: 2rem;
+  padding: 15px;
+
+}
+.hero__title2{
+  position: absolute;
+  bottom: 41%;
+  right: 35%;
+  color: white;
+  font-size: 1rem;
+  padding: 15px;
+
+}
+.hero__title2{
+  position: absolute;
+  bottom: 41%;
+  right: 35%;
+  color: white;
+  font-size: 1rem;
+  padding: 15px;
+
+}
+.hero__headline{
+  position: absolute;
+  left: 12%;
+  bottom: 51%;
+  color: rgb(117, 0, 0);
+  font-size: 0.9rem;
+  
+}
+.hero__headline2{
+  position: absolute;
+  left: 12%;
+  bottom: 47%;
+  color: rgb(117, 0, 0);
+  font-size: 0.9rem;
+  
+}
+.hero__headline3{
+  position: absolute;
+  left: 12%;
+  bottom: 43%;
+  color: rgb(97, 0, 0);
+  font-size: 0.9rem;
+  
+}
+
+.button3 {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: white;
+  font-size: 23px;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+  text-shadow: #000000;
+  background-color: transparent;
+  margin-left: 200px;
+  margin-top: 400px;
+  position: absolute;
+}
+
